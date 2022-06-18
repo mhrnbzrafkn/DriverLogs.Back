@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLog.Entities", "src\DriverLog.Entities\DriverLog.Entities.csproj", "{12CD908F-1DB6-42B2-A6F1-48BD32521863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLog.Infrastructure", "src\DriverLog.Infrastructure\DriverLog.Infrastructure.csproj", "{04B9F545-CF32-482A-AB5E-6A26D206D55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLog.Persistence.EF", "src\DriverLog.Persistence.EF\DriverLog.Persistence.EF.csproj", "{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLog.Services", "src\DriverLog.Services\DriverLog.Services.csproj", "{DB148AC8-584D-4A0A-A247-9EA5A2430CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLog.Api", "src\DriverLog.Api\DriverLog.Api.csproj", "{18B5914E-5414-467D-B4F1-F0C4538DB427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriverLogs.Migrations", "src\DriverLogs.Migrations\DriverLogs.Migrations.csproj", "{B18B54AC-8062-489C-A4D6-DFE6E0CE2927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CD908F-1DB6-42B2-A6F1-48BD32521863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CD908F-1DB6-42B2-A6F1-48BD32521863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CD908F-1DB6-42B2-A6F1-48BD32521863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CD908F-1DB6-42B2-A6F1-48BD32521863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B9F545-CF32-482A-AB5E-6A26D206D55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B9F545-CF32-482A-AB5E-6A26D206D55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B9F545-CF32-482A-AB5E-6A26D206D55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B9F545-CF32-482A-AB5E-6A26D206D55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB148AC8-584D-4A0A-A247-9EA5A2430CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB148AC8-584D-4A0A-A247-9EA5A2430CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB148AC8-584D-4A0A-A247-9EA5A2430CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB148AC8-584D-4A0A-A247-9EA5A2430CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B5914E-5414-467D-B4F1-F0C4538DB427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B5914E-5414-467D-B4F1-F0C4538DB427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B5914E-5414-467D-B4F1-F0C4538DB427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B5914E-5414-467D-B4F1-F0C4538DB427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18B54AC-8062-489C-A4D6-DFE6E0CE2927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18B54AC-8062-489C-A4D6-DFE6E0CE2927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18B54AC-8062-489C-A4D6-DFE6E0CE2927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18B54AC-8062-489C-A4D6-DFE6E0CE2927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CD908F-1DB6-42B2-A6F1-48BD32521863} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+		{04B9F545-CF32-482A-AB5E-6A26D206D55E} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+		{4631FF87-0743-4B97-B3D8-F3DCE81EFD3C} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+		{DB148AC8-584D-4A0A-A247-9EA5A2430CEC} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+		{18B5914E-5414-467D-B4F1-F0C4538DB427} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+		{B18B54AC-8062-489C-A4D6-DFE6E0CE2927} = {AEF7D0D0-C358-451F-A0E8-0C03D553AB0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77325533-4EDF-489E-B8FE-F30017443C75}
+	EndGlobalSection
+EndGlobal
