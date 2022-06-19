@@ -1,17 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<DebugType>none</DebugType>
+		<OutputType>Exe</OutputType>
+		<DebugSymbols>false</DebugSymbols>
+		<TargetFramework>net5.0</TargetFramework>
+		<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+		<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	</PropertyGroup>	
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DriverLog.Persistence.EF\DriverLog.Persistence.EF.csproj" />
-    <ProjectReference Include="..\DriverLog.Services\DriverLog.Services.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DriverLog.Persistence.EF\DriverLog.Persistence.EF.csproj" />
+		<ProjectReference Include="..\DriverLog.Services\DriverLog.Services.csproj" />
+	</ItemGroup>
 
 </Project>
